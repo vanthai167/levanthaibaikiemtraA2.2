@@ -5,11 +5,11 @@ và thông tin liên hệ. Sản phẩm là website tĩnh được xây dựng b
 
 ## Liên kết
 
-- **Tác giả:** [Lê Văn Thái](https://github.com/vanthai167/levanthaibaikiemtraA2.2.git)
-- **Hồ sơ GitHub:** https://github.com/haivunam134-boop
-- **Mã nguồn:** https://github.com/haivunam134-boop/vunamhaibaikiemtraA2.22
-- **Trang GitHub Pages:**  https://vanthai167.github.io/levanthaibaikiemtraA2.2/
-- **Trang kết quả form:** https://haivunam134-boop.github.io/vunamhaibaikiemtraA2.22/ket-qua.html
+- **Tác giả:** [Lê Văn Thái](https://github.com/vanthai167)
+- **Hồ sơ GitHub:** https://github.com/vanthai167
+- **Mã nguồn:** https://github.com/vanthai167/levanthaibaikiemtraA2.2
+- **Trang GitHub Pages:** https://vanthai167.github.io/levanthaibaikiemtraA2.2/
+- **Trang kết quả form:** https://vanthai167.github.io/levanthaibaikiemtraA2.2/ket-qua.html
 
 ## Cấu trúc dự án
 
@@ -66,9 +66,9 @@ tĩnh; không có bước build. Mã nguồn hiện nằm ở nhánh `main`. Có
 
 ## Mã nguồn và minh chứng
 
-- [Mã nguồn trang portfolio (`index.html`)](https://github.com/haivunam134-boop/vunamhaibaikiemtraA2.22/blob/main/index.html)
-- [Mã nguồn trang kết quả (`ket-qua.html`)](https://github.com/haivunam134-boop/vunamhaibaikiemtraA2.22/blob/main/ket-qua.html)
-- [Trang portfolio đã xuất bản](https://haivunam134-boop.github.io/vunamhaibaikiemtraA2.22/)
-- [Trang kết quả đã xuất bản](https://haivunam134-boop.github.io/vunamhaibaikiemtraA2.22/ket-qua.html)
-- [Ghi chú kiểm tra trong repository (`AI_LOG.md`)](https://github.com/haivunam134-boop/vunamhaibaikiemtraA2.22/blob/main/AI_LOG.md)
-- [Release notes bàn giao v7 (`RELEASE_NOTES.md`)](https://github.com/haivunam134-boop/vunamhaibaikiemtraA2.22/blob/main/RELEASE_NOTES.md)
+- [Mã nguồn trang portfolio (`index.html`)](https://github.com/vanthai167/levanthaibaikiemtraA2.2/blob/main/index.html)
+- [Mã nguồn trang kết quả (`ket-qua.html`)](https://github.com/vanthai167/levanthaibaikiemtraA2.2/blob/main/ket-qua.html)
+- [Trang portfolio đã xuất bản](https://vanthai167.github.io/levanthaibaikiemtraA2.2/)
+- [Trang kết quả đã xuất bản](https://vanthai167.github.io/levanthaibaikiemtraA2.2/ket-qua.html)
+- [Ghi chú kiểm tra trong repository (`AI_LOG.md`)](https://github.com/vanthai167/levanthaibaikiemtraA2.2/blob/main/AI_LOG.md)
+- [Release notes bàn giao v7 (`RELEASE_NOTES.md`)](https://github.com/vanthai167/levanthaibaikiemtraA2.2/blob/main/RELEASE_NOTES.md)

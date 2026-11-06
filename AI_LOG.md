@@ -27,15 +27,15 @@
   xác định đường dẫn đúng. Không sửa HTML/CSS ngoài phạm vi yêu cầu. Gỡ các
   ghi nhận cũ không đối chiếu được với workspace hiện tại, gồm tuyên bố đã cập
   nhật `README.md`, đã mở thành công URL GitHub Pages và đã kiểm tra hồ sơ
-  `vanhkazen`; workspace hiện không có `README.md` và các lượt kiểm tra đó
-  không được xác nhận trong phiên này.
+  `vanhkazen`; các lượt kiểm tra đó không được xác nhận trong phiên này.
 - **Căn cứ:** Chỉ ghi những gì có thể đối chiếu trực tiếp với các tệp và kết
   quả thao tác thực tế trong phiên; không suy ra trạng thái triển khai từ mã
   nguồn local.
 
 ## Kiểm thử URL và kết quả
 
-- URL website công khai chưa được cung cấp hoặc xác nhận trong workspace.
+- `README.md` ghi URL GitHub Pages, nhưng URL đó chưa được xác minh trong
+  phiên này.
 - Chưa kiểm thử trang local hay URL công khai bằng trình duyệt/HTTP trong
   phiên này. Lời gọi công cụ để truy cập URL và chạy kiểm tra đã bị từ chối,
   vì vậy không ghi mã HTTP, trạng thái tải trang, ảnh hoặc kết quả gửi form
