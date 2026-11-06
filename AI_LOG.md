@@ -1,44 +1,45 @@
 # Nhật ký sử dụng AI
 
-## Vấn đề và dữ kiện ban đầu
+## Khai báo sử dụng AI
 
-- Ghi chú ban đầu nêu hiện tượng CSS, ảnh đại diện và ảnh dự án không hiển thị;
-  đồng thời đề xuất thay các đường dẫn trong `index.html`. Ghi chú đó chưa xác
-  nhận các đề xuất đã được áp dụng.
-- Khi kiểm tra mã nguồn hiện tại, `index.html` dùng `css/style.css`, ảnh đại
-  diện trong `assets/` và ba ảnh dự án trong `assets/`. Các đường dẫn này khớp
-  với cấu trúc tệp trong repository. Ảnh đại diện hiện dùng là tệp WebP, không
-  phải `avatar.svg`.
-- Repository có trang portfolio và trang kết quả form. Form dùng GET tới
-  `ket-qua.html`; trang kết quả nêu rõ không gửi email và không lưu dữ liệu.
+- **Có sử dụng AI:** Có. AI assistant trong VS Code được dùng để đọc cấu trúc
+  dự án, đối chiếu đường dẫn tài nguyên trong HTML với các tệp hiện có và hỗ
+  trợ ghi nhật ký này.
+- **Phạm vi:** Chỉ cập nhật tài liệu này. Không dùng AI để tạo nội dung thay
+  cho người viết và không chỉnh sửa HTML/CSS trong lượt ghi nhận này.
 
-## AI được dùng và gợi ý
+## Hiện tượng và nhận định ban đầu
 
-- **Công cụ:** AI assistant trong VS Code.
-- **Yêu cầu/prompt:** Đối chiếu README với sản phẩm thực tế và ghi thông tin
-  để người khác mở, chạy, kiểm tra trang cùng các chức năng chính.
-- **Gợi ý/đầu ra liên quan:** Xác nhận URL GitHub Pages và hồ sơ tác giả; mô tả
-  cấu trúc website tĩnh, cách chạy local, các phần cần kiểm tra và giới hạn
-  của form. AI cũng đề xuất các đường dẫn trong ghi chú cũ; đó là đề xuất từ
-  ghi nhận ban đầu, không phải thay đổi đã thực hiện trong lượt này.
+- `index.html` liên kết tới `css/style.css` và bốn ảnh trong thư mục `assets/`.
+- Cấu trúc workspace được kiểm tra chỉ có `AI_LOG.md`, `index.html`,
+  `ket-qua.html` và `css/style.css`; không thấy thư mục hoặc tệp `assets/`.
+- Nhận định ban đầu: đường dẫn CSS có tệp tương ứng trong workspace; bốn ảnh
+  được tham chiếu không có trong cấu trúc hiện tại nên có nguy cơ không hiển
+  thị. Chưa thể kết luận trạng thái trên website đã xuất bản nếu chưa mở URL.
+- Form trong `index.html` gửi bằng GET tới `ket-qua.html`. Nội dung trang kết
+  quả nói rõ form không gửi email và không lưu dữ liệu lên máy chủ.
 
-## Quyết định và phần đã sửa
+## Gợi ý của công cụ và quyết định
 
-- Đối chiếu các gợi ý với mã nguồn trước khi ghi tài liệu. Vì các đường dẫn CSS
-  và ảnh trong mã nguồn hiện tại đã khớp với tệp trong repository, không sửa
-  `index.html` và không đổi ảnh đại diện sang `avatar.svg`.
-- Cập nhật `README.md` để mô tả hai trang, cách chạy website tĩnh, cách thử
-  điều hướng và kiểm tra form; ghi rõ dữ liệu GET có thể hiện trên URL và không
-  được gửi/lưu trên máy chủ.
-- Giữ tên nhật ký thống nhất là `AI_LOG.md`; liên kết trong README dùng đúng
-  tên này.
+- **Gợi ý của AI:** Kiểm tra tài nguyên thực tế trong workspace trước khi đổi
+  đường dẫn; chỉ ghi nhận kết quả kiểm thử khi đã thực sự truy cập URL.
+- **Quyết định:** Không tự thay đường dẫn ảnh vì chưa có tệp ảnh thay thế để
+  xác định đường dẫn đúng. Không sửa HTML/CSS ngoài phạm vi yêu cầu. Gỡ các
+  ghi nhận cũ không đối chiếu được với workspace hiện tại, gồm tuyên bố đã cập
+  nhật `README.md`, đã mở thành công URL GitHub Pages và đã kiểm tra hồ sơ
+  `vanhkazen`; workspace hiện không có `README.md` và các lượt kiểm tra đó
+  không được xác nhận trong phiên này.
+- **Căn cứ:** Chỉ ghi những gì có thể đối chiếu trực tiếp với các tệp và kết
+  quả thao tác thực tế trong phiên; không suy ra trạng thái triển khai từ mã
+  nguồn local.
 
-## Cách thử lại và kết quả đã xác nhận
+## Kiểm thử URL và kết quả
 
-- `git diff --check`: hoàn tất, không báo lỗi định dạng diff.
-- Mở URL GitHub Pages của trang chủ và `ket-qua.html`: cả hai trả nội dung
-  trang tương ứng khi được kiểm tra.
-- Mở hồ sơ GitHub `vanhkazen`: API GitHub trả đúng URL hồ sơ.
-- Chưa thực hiện kiểm tra trực quan trên trình duyệt cho từng ảnh/responsive;
-  chưa gửi thử form. Vì vậy nhật ký không kết luận các bước đó đã được kiểm
-  chứng.
+- URL website công khai chưa được cung cấp hoặc xác nhận trong workspace.
+- Chưa kiểm thử trang local hay URL công khai bằng trình duyệt/HTTP trong
+  phiên này. Lời gọi công cụ để truy cập URL và chạy kiểm tra đã bị từ chối,
+  vì vậy không ghi mã HTTP, trạng thái tải trang, ảnh hoặc kết quả gửi form
+  như thể đã được kiểm chứng.
+- Các điểm cần kiểm tra khi có quyền truy cập URL: trang chủ, trang
+  `ket-qua.html`, stylesheet, bốn ảnh được tham chiếu và gửi thử form với dữ
+  liệu hợp lệ; ghi URL cụ thể cùng kết quả quan sát được sau khi thực hiện.
